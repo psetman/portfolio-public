@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'psetman$default',
-        'USER': 'psetman',
-        'PASSWORD': 'GuUJED7wks7)',
-        'HOST': 'psetman.mysql.eu.pythonanywhere-services.com',
+        'NAME': config('DB_USER'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASS'),
+        'HOST': config('DB_HOST'),
     }
 }
 
