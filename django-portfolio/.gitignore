@@ -44,7 +44,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-django-portfolio/pyvenv.cfg
+pyvenv.cfg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
